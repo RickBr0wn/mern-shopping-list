@@ -6,8 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  Container } from 'reactstrap'
+  NavLink } from 'reactstrap'
 
 class AppNavBar extends Component {
   state = {
