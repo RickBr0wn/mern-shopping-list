@@ -42,7 +42,7 @@ class ItemModal extends Component {
 
   render() {
     return(
-      <div>
+      <div className="button-conatiner">
         <Button color="dark"
                 style={{ marginBottom: '2rem' }}
                 onClick={this.toggle}>Add Item

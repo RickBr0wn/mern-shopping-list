@@ -19,3 +19,25 @@
   opacity: 0.01;
   transition: opacity .5s ease-in;
 }
+
+.container {
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.shopping-list {
+  margin: 0 auto;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.button-conatiner {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: red;
+}

@@ -24,11 +24,11 @@ class ShoppingList extends Component {
                                 timeout={500}
                                 classNames="fade">
                   <ListGroupItem>
-                    <Button className="remove-btn"
+                    <button className="remove-btn"
                             color="danger"
                             size="sm"
                             onClick={this.onDeleteClick.bind(this, _id)}>&times;
-                    </Button>
+                    </button>
                     {
                       name
                     }
