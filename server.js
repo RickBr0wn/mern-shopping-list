@@ -11,7 +11,8 @@ const app = express()
 app.use(bodyParser.json())
 
 // mongoDB config
-const db = require('./config/keys').mongoURI
+// const db = require('./config/keys').mongoURI
+const db = process.env.MLAB_PRODUCTION_KEY
 
 // connect to mongo
 mongoose
