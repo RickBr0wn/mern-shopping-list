@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, ListGroup, ListGroupItem, Button } from 'reactstrap'
+import { Container, ListGroup, ListGroupItem } from 'reactstrap'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import { connect } from 'react-redux'
 import { getItems, deleteItem } from '../actions/itemActions'
@@ -22,7 +22,8 @@ class ShoppingList extends Component {
               items.map(({ _id, name }) => (
                 <CSSTransition  key={_id}
                                 timeout={500}
-                                classNames="fade">
+                                classNames="fade"
+                                className="item">
                   <ListGroupItem>
                     <button className="remove-btn"
                             color="danger"

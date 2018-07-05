@@ -29,6 +29,8 @@
   margin: 0 auto;
   min-width: 100%;
   max-width: 100%;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, .2);
+
 }
 
 .button-conatiner {
@@ -40,4 +42,8 @@
   background: transparent;
   border: none;
   color: red;
+}
+
+.item {
+  
 }
